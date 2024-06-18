@@ -1,6 +1,6 @@
 .theme-pink {
   .app-sidebar {
-    @apply bg-pavitra-900 text-white;
+    @apply bg-gray-800 text-white;
 
     .menu-title,
     .menu-item-icon,
@@ -10,11 +10,11 @@
   }
 
   .app-sidebar-brand {
-    @apply bg-white;
+    @apply bg-gray-800;
   }
 
   .bg-blue-600 {
-    @apply bg-pavitra-800;
+    @apply bg-blue-800;
   }
 
   .border-blue-700 {
@@ -23,11 +23,11 @@
 
   .checkbox input[type='checkbox']:checked + .check,
   .radio input[type='radio']:checked + .check {
-    @apply border-pavitra-800;
+    @apply border-blue-800;
   }
 
   .helper-container .tab {
-    @apply bg-pavitra-900;
+    @apply bg-gray-800;
   }
 
   .focus\:ring:focus {
@@ -43,7 +43,7 @@
 
 .theme-green {
   .app-sidebar {
-    @apply bg-pavitra-800 text-white;
+    @apply bg-gray-800 text-white;
 
     .menu-title,
     .menu-item-icon,
@@ -53,32 +53,32 @@
   }
 
   .app-sidebar-brand {
-    @apply bg-white;
+    @apply bg-gray-800;
   }
 
   .bg-blue-600 {
-    @apply bg-pavitra-800;
+    @apply bg-blue-800;
   }
 
   .border-blue-700 {
-    @apply bg-pavitra-700;
+    @apply border-green-700;
   }
 
   .hover\:bg-blue-700:hover {
-    @apply bg-pavitra-700;
+    @apply bg-blue-700;
   }
 
   .text-blue-600 {
-    @apply text-pavitra-900;
+    @apply text-blue-900;
   }
 
   .checkbox input[type='checkbox']:checked + .check,
   .radio input[type='radio']:checked + .check {
-    @apply border-pavitra-800;
+    @apply border-blue-800;
   }
 
   .helper-container .tab {
-    @apply bg-pavitra-700;
+    @apply bg-blue-700;
   }
 
   .focus\:ring:focus {
@@ -92,14 +92,14 @@
   }
 
   .text-blue-500 {
-    @apply text-pavitra-800;
+    @apply text-blue-800;
   }
 
   .hover\:text-blue-600:hover {
-    @apply text-pavitra-800;
+    @apply text-blue-800;
   }
 
   .active\:text-blue-700:active {
-    @apply text-pavitra-800;
+    @apply text-blue-800;
   }
 }

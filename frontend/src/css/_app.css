@@ -1,22 +1,27 @@
 html {
-  @apply h-full;
+  @apply h-full bg-gray-900 text-white;
 }
 
 body {
-  @apply pt-14 xl:pl-60 h-full;
+  @apply pt-14 xl:pl-60 h-full bg-gray-900 transition-all duration-200 ease-in-out;
 }
 
 #app {
-  @apply w-screen transition-position lg:w-auto h-full flex flex-col;
+  @apply w-screen lg:w-auto h-full flex flex-col;
+}
+
+.main-navbar,
+.app-sidebar-brand {
+  box-shadow: 0px -1px 40px rgba(112, 144, 176, 0.2);
 }
 
 .dropdown {
-  @apply cursor-pointer;
+  @apply cursor-pointer transition-transform transform hover:scale-105;
 }
 
 li.stack-item:not(:last-child):after {
   content: '/';
-  @apply inline-block pl-2;
+  @apply inline-block pl-2 text-gray-400;
 }
 
 .m-clipped,
